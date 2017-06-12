@@ -5,7 +5,7 @@ require 'serverspec-extensions/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'serverspec-extensions'
-  spec.version = TAPI::ServerspecExtensions::VERSION
+  spec.version = ServerspecExtensions::VERSION
   spec.authors = %w(TransportAPI)
   spec.email = %w(support@transportapi.com)
   spec.summary = 'Extensions to Serverspec'

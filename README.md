@@ -1,2 +1,2 @@
 # serverspec-extensions
-Extensions to serverspec.
+Extensions to serverspec

@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'infrataster/version'
+require 'serverspec-extensions/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "infrataster"
+  spec.name          = "serverspec-extensions"
   spec.version       = Infrataster::VERSION
   spec.authors       = ["Ryota Arai"]
   spec.email         = ["ryota.arai@gmail.com"]

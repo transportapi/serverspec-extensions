@@ -5,7 +5,7 @@ require 'serverspec-extensions/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "serverspec-extensions"
-  spec.version       = Infrataster::VERSION
+  spec.version       = ServerspecExtensions::VERSION
   spec.authors       = ["Ryota Arai"]
   spec.email         = ["ryota.arai@gmail.com"]
   spec.summary       = %q{Infrastructure Behavior Testing Framework}

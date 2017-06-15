@@ -1,4 +1,4 @@
-require 'serverspec-extensions/type/java'
+require 'serverspec_extensions/type/java'
 
 module ServerspecExtensions
   module Type

@@ -1,2 +1,2 @@
-# serverspec_extensions
-Extensions to serverspec.
+# tapi-serverspec
+Extensions to serverspec by TransportAPI.

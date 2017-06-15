@@ -1,15 +1,16 @@
 # encoding: utf-8
 
 $LOAD_PATH.unshift(File.expand_path('../lib', __FILE__))
-require 'serverspec_extensions/version'
+require 'tapi/serverspec/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'serverspec_extensions'
-  spec.version = ServerspecExtensions::VERSION
+  spec.name = 'tapi-serverspec'
+  spec.version = TAPI::Serverspec::VERSION
   spec.authors = %w(TransportAPI)
   spec.email = %w(support@transportapi.com)
-  spec.summary = 'Extensions to Serverspec'
-  spec.homepage = 'https://github.com/transportapi/serverspec_extensions'
+  spec.summary = 'Extensions to Serverspec by TransportAPI'
+  spec.homepage = 'https://github.com/transportapi/tapi-serverspec'
+  spec.license = 'MIT'
 
   spec.required_ruby_version = '>= 2.0.0'
   spec.files = `git ls-files -z`.split("\x0")

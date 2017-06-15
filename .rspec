@@ -1,0 +1,4 @@
+--color
+--format Fuubar
+-b
+--require spec_helper
